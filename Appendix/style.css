@@ -1,0 +1,33 @@
+body {background-image: url(https://imgs.search.brave.com/0RYeZdQf0RoX7z_1IhLIp3S8IbR7Mih6WDmp-wVOLzI/rs:fit:860:0:0/g:ce/aHR0cHM6Ly82NC5t/ZWRpYS50dW1ibHIu/Y29tLzE2MmNjM2Rm/YTVjZWY2Yzg4MmFi/YTU0NTM0NDVmMGZi/L3R1bWJscl9teDN5/MXlZRmFkMXFjbTBl/dG8xXzEyODAucG5n);}
+* {
+    font-family: caveat;
+    text-align:center;
+}
+.topper {
+    text-align: center;
+}
+
+.lefta {
+position: absolute;
+left:5%;
+top:8px;
+
+}
+
+.righta {
+position: absolute;
+right:5%;
+top:8px;
+}
+
+.Survivor > p{
+ display:inline;
+ width: 40%;
+}
+
+.Steve {
+    float:right;
+    height:200px;
+    Width:150px;
+    display:inline;
+}
