@@ -1,0 +1,257 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sows the Righteous Blog</title>
+</head>
+<style>
+
+    :root {
+        --header-image: url('./assets/tale.png');
+        --body-bg-image: url('./assets/glass.jpg');
+        --content: #2b29d3;
+    }
+
+
+    @font-face {
+        font-family: Nunito;
+        src: url('https://sadhost.neocities.org/fonts/Nunito-Regular.ttf');
+    }
+
+    @font-face {
+        font-family: Nunito;
+        src: url('https://sadhost.neocities.org/fonts/Nunito-Bold.ttf');
+        font-weight: bold;
+    }
+
+    @font-face {
+        font-family: Nunito;
+        src: url('https://sadhost.neocities.org/fonts/Nunito-Italic.ttf');
+        font-style: italic;
+    }
+
+    @font-face {
+        font-family: Nunito;
+        src: url('https://sadhost.neocities.org/fonts/Nunito-BoldItalic.ttf');
+        font-style: italic;
+        font-weight: bold;
+    }
+
+    body {
+        font-family: 'Nunito', sans-serif;
+        margin: 0;
+        background-color: #08031A;
+        background-size: 400px;
+        color: #fceaff;
+        background-image: var(--body-bg-image);
+    }
+
+    * {
+        box-sizing: border-box;
+    }
+
+
+    #container {
+        max-width: 900px;
+        margin: 0 auto;
+    }
+
+    #container a {
+        color: #6488f5;
+        font-weight: bold;
+    }
+
+    #header {
+        width: 100%;
+        background-color: #75a9e1;
+        height: 210px;
+        background-image: var(--header-image);
+        background-size: 100%;
+    }
+
+    #navbar {
+        height: 40px;
+        background-color: #09102d;
+        width: 100%;
+    }
+
+    #navbar ul {
+        display: flex;
+        padding: 0;
+        margin: 0;
+        list-style-type: none;
+        justify-content: space-evenly;
+    }
+
+    #navbar li {
+        padding-top: 10px;
+    }
+
+  
+    #navbar li a {
+        color: #eea7d7;
+        font-weight: 800;
+        text-decoration: none;
+    }
+
+    #navbar li a:hover {
+        color: #8d207a;
+        text-decoration: underline;
+    }
+
+    #flex {
+        display: flex;
+    }
+
+    
+    aside {
+        background-color: #143345;
+        width: 200px;
+        padding: 20px;
+        font-size: smaller;
+    }
+
+    main {
+        background-color: #25356e;
+        flex: 1;
+        padding: 20px;
+        order: 2;
+    }
+
+
+
+    footer {
+        background-color: #13092D;
+        width: 100%;
+        height: 60px;
+        padding: 10px;
+        text-align: center;
+    }
+
+    h1,
+    h2,
+    h3 {
+        color: #97acf2;
+    }
+
+    h1 {
+        font-size: 35px;
+    }
+
+    strong {
+        color: #97acf2;
+    }
+
+    .box {
+        background-color: #13092D;
+        border: 1px solid #647cf5;
+        padding: 10px;
+    }
+
+
+    #topBar {
+        width: 100%;
+        height: 30px;
+        padding: 10px;
+        font-size: smaller;
+        background-color: #090d2d;
+    }
+    
+
+
+    @media only screen and (max-width: 800px) {
+        #flex {
+            flex-wrap: wrap;
+        }
+
+        aside {
+            width: 100%;
+        }
+
+        main {
+            order: 1;
+        }
+
+        #navbar ul {
+            flex-wrap: wrap;
+        }
+        
+        footer {
+            height:80px;
+        }
+
+        header {
+            width:100%;
+            height: fit-content;
+        }
+
+      
+    }
+</style>
+
+<div id="container">
+    <div id="headerArea">
+        <div id="header"></div>
+        <nav id="navbar">
+            <ul>
+                <li><a href="#">Home</a></li>
+                <li><a href="#">More Tales</a></li>
+                <li><a href="#">About Brooke</a></li>
+                <li><a href="#">Pack?</a></li>
+                
+            </ul>
+        </nav>
+    </div>
+
+    <div id="flex">
+        <main>
+            <h1>The Pruning of Avalon Games</h1>
+            <h2>Participating Garou and Sanga</h2>
+            <p><b>Vasilisa Makarovna Tvarivich "Composed Within Ice who Cuts the Shadows" </b>
+                <br>
+                Athro, Philodox, Homid and Clan Crescent Moon of the Silver Fangs, 
+                Alpha of the Sept of the Moon's Huntress, 
+                Acting as Lantern in "Striking Forward Under Dawn's Light" Illuminated by the Radiance of Lady Amaterasu, 
+                Guided by Glimmer of Hope, the Star who Shines only in the Dark, 
+                Bearer of the Clan Crescent Moon Ancestral Klaive “Moon’s Purity"
+                </p>
+            <p><b>Jezzabelle Wraith</b>
+                <br>Corax, Top Bird (Elder?) Sanga are mysterious</p>    
+            <p><b>Sees The Prey</b>
+                <br>Athro, Ragabash, Lupus, Red Talon</p>  
+            <p><b>Geming "Cuts Away the Webs" Li</b>
+                <br> Adren Stargazer Metis Theurge, Master of the Rite, Alpha of Jaws of Vengeance, Wielder of Avarice
+            </p>
+            <p><b>Theo, Rends the Throat,</b>
+                <br> Adren Get of Fenris, Wyrmfoe of the Sept of Moon Huntress</p>
+            <p><b>Riding Rushing River "Rends with Fangs"</b>
+                <br>Red Talon Ahroun Adren Lupus. Alpha of Enduring Echos. Member of Sept of Moon's Huntress</p>
+           
+
+            <p><b>Julia "Lunar-Larceny" Gilmore</b>
+                <br> Homid, Glasswalker, Ragabash, Fostern, Member of pack of Gale's Song</p>
+            <p>and of course &#10024;yours truly&#10024;</p>    
+
+            <h2>Now a little context for y'all</h2>
+            <p>Avalon games is a company that (hopefully formerly) produced and sold AR equipment and games. They are however not as innocent as they appear at first glance. One of the games they were producing was a simulator of an assault on the sept of Moon’s Huntress and they had attacked the sept previously during a practice raid on the Caern, grievously injuring the group they assaulted. After this, Rends the Throat stepped up and challenged and earned the position of Sept’s Wyrm Foe.  </p>
+            <h2>Free Spider Rides</h2>
+            <p>Once prepared we set off, Sees the Prey casting out what looked like a fishing line and pulling in a giant pattern spider. Now, as I said this was not my first rodeo or giant spider ride (Man, I miss Liam.) but that’s an art that most haven’t exactly had the chance to master. We all held on as tight as we could as our fuzzy friend took us to our destination.</p>
+            <a href="./assets/spider.jpg">Our Whip TW: Arachnaphobia</a>
+            <p>Vasilisa wasted no time in using her vast knowledge and wisdom to quickly figure out the rules of this pocket realm. She confirmed the suspicion that gaining gnosis would be difficult there and our rage would be more difficult to control. The first obstacle we encountered was a security loop, where while it looked like we were progressing, we were actually just repeating the same 15 seconds over and over. I was able to overcome that by a clever use of one of my tribal gifts and got us back on track towards the factory. </p>
+
+            <p>Our next encounter was software bugs, chewing at the lines and webs that we were skating across on. Riding Rushing Rivers lived up to his name when he valiantly held on despite almost being entirely knocked off. The landscape changed as we made our final approach and we could see the baleful green fires spewing out from the factory and lines of trees growing VR headsets as if they were fruit. Enslaved spirits of the Wyld tended to and harvested from these profane trees. Some of the guardian weaver spirits took notice of us, sending some sort of drones after us (honestly they looked like lightcycles.) Using the computers built into Spider Friend’s legs we were able to plot our path in such a way that all but two of those light cycles couldn’t cause us any harm. The last two attacked us, somehow Rends the Throat was able to block the attack by taking the damage for himself. </p>
+          
+            <h2>In the Factory</h2>
+            <p>We landed safely just outside the factory and came to the decision that we would start investigating to see if we could figure out what the central source of all of this vileness was. We knew we had to pull the jenga brick that would make all of this come tumbling down. We decided to start by heading towards the factory where we were met by a group of pattern spiders that asked us if we were new factory workers. Wanting to retain the element of surprise as long as we could we agreed that we in fact were and they led us into the factory.</p>
+            <p>What we saw there was hard. It was a disgusting sight that turned all of our stomachs. More enslaved wyld spirits, and a glade child, in the midst of being tortuously corrupted. This was an especially difficult sight for Gemming who dedicated his life to valiantly cutting the weaver’s webs. It is the core of who he is now and I know him well enough to know that it was an egregious affront to everything he stood and lived for. If there was <b>ever</b> a time that it was appropriate for a Garou to be overcome by their rage, for him, this was that moment.</p>
+            <p>The pattern spiders that led us in deeply confused when they realized that we were not in fact factory workers. We quickly came to the realization that we were not the only Garou in the building. We were attacked by 3 Black Spiral Dancers, two of which were wielding Bane Klaives. They attacked us quickly, and hard and commanded the Pattern Spiders to join in the attack. Jezzabelle, thinking quickly on her wings, was able to exercise one of the Bane Klaives, freeing the spirits inside and I was able to command one of the Pattern Spiders to ‘compile some data’ elsewhere. Once the odds had been evened a bit, the fighting began in earnest. </p>
+            <h2>Get versus Fallen Get</h2>
+            <p>Rends the Throat faced off against the Fallen Get of Fenris, taking crippling blows from the Bane Klaive that remained. He carried on the fight valiantly until he too was driven to frenzy, killing his corrupted counterpart and earning his first battle scar in the process. This victory turned the battle from a grueling slog against powerful enemies to a less desperate situation. Rends with Fangs was able to land the final blow with his mighty jaws on the Black Spiral Theurge as I was able to land the final blow on the last of them. Jezzabelle and Lunar Larceny were able to stop the crawl towards death for Gemming and Theo by selflessly healing them. Now that the facility was essentially unmanned we were able to put an end to the glade child’s suffering and return them to the cycle to be renewed. </p>
+        </main>
+    </div>
+    <footer id="footer">Told by Brooke Falls, Known to the Nation as, Sows the Rightetous Tale Galliard Metis Glasswalker Adren, Currently Residing at the Sept Red Mountian Revival</footer>
+</div>
+
+</body>
+</html>
